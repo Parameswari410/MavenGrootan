@@ -81,10 +81,10 @@ public class GrootanTest extends TestBase {
 		driver.quit();
 	}
 
-	@AfterSuite
+	/*@AfterSuite
 	public void reportGeneration() throws Exception {
 		Xl.generateReport(System.getProperty("user.dir")+"/Output", "ExcelReport.xlsx");
-	}
+	}*/
 }
 
 
