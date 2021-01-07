@@ -12,8 +12,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
 
-import org.testng.Reporter;
-
 import com.grootan.qa.base.TestBase;
 
 import ru.yandex.qatools.ashot.AShot;
@@ -91,7 +89,7 @@ public class TestUtil extends TestBase{
 			}
 		}
 
-		Reporter.log("<br><img src='"+targetFolder1+"' height='400' width='400'/><br>");
+		//Reporter.log("<br><img src='"+targetFolder1+"' height='400' width='400'/><br>");
 	}
 
 	/*public static void compareFolder1AndFolder2() {
