@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="TSR">
 		<classes>
-			<class name="com.grootan.qa.testcases.GrootanTest" />
+			<!-- <class name="com.grootan.qa.testcases.GrootanTest" /> -->
 			<class name="com.grootan.qa.testcases.TeamSectionTest" />
 		</classes>
 	</test> <!-- Test -->

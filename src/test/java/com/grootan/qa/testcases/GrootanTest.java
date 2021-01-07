@@ -71,10 +71,10 @@ public class GrootanTest extends TestBase {
 		TestUtil.takeScreenshot(homePage.contactUs.getText());
 	}
 
-	@Test(priority=8)
+	/*@Test(priority=8)
 	public static void compareFolder1AndFolder2() {
 		TestUtil.compareFolder1AndFolder2();
-	}
+	}*/
 
 	@AfterMethod
 	public void tearDown(){

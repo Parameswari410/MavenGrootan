@@ -44,6 +44,11 @@
 			<version>1.5.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.surenpi.autotest</groupId>
+			<artifactId>autotest.report.excel</artifactId>
+			<version>1.0.0-20170618</version>
+		</dependency>
 
 	</dependencies>
 
@@ -68,7 +73,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\Users\VICKY\git\GrootanProject\Grootan\src\main\resources\testng.xml</suiteXmlFile>
+						<suiteXmlFile>C:\Users\VICKY\git\MavenGrootan\src\main\resources\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

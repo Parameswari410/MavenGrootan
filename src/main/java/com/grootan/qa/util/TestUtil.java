@@ -95,7 +95,7 @@ public class TestUtil extends TestBase{
 		Reporter.log("<br><img src='"+targetFolder1+"' height='400' width='400'/><br>");
 	}
 
-	public static void compareFolder1AndFolder2() {
+	/*public static void compareFolder1AndFolder2() {
 		if(outputFile2.exists()) {
 			if(targetFolder2.equalsIgnoreCase(targetFolder1)) {
 				ImageComparison comp = new ImageComparison(20, 20, 0.15);
@@ -112,7 +112,7 @@ public class TestUtil extends TestBase{
 				}
 			}
 		}
-	}
+	}*/
 
 	public static Boolean compareHrAndCTO_CoFounderImage(BufferedImage image1, BufferedImage image2) {
 
